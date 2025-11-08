@@ -1,0 +1,801 @@
+patient_id,age,gender,diagnosis,num_lab_procedures,num_medications,time_in_hospital,discharge_disposition,charlson_score,prior_admissions,insurance,readmitted_30d
+100000,69,Male,Heart Failure,7,7,1,Home,7,1,Medicare,0
+100001,32,Male,Pneumonia,10,8,4,Home,4,0,Medicare,0
+100002,89,Female,Heart Failure,10,7,4,Home,3,1,Private,0
+100003,78,Female,Sepsis,13,7,4,Home,2,2,Medicare,0
+100004,38,Female,Orthopedic,9,6,8,Home,2,1,Private,0
+100005,41,Male,Pneumonia,18,4,6,Home,2,0,Medicare,0
+100006,20,Female,Orthopedic,4,10,7,Home,1,0,Private,0
+100007,39,Female,Heart Failure,5,7,2,Home,0,1,Medicare,0
+100008,70,Male,Orthopedic,13,3,5,Home,1,1,Medicare,0
+100009,19,Male,COPD,10,10,4,Rehab,1,2,Medicaid,0
+100010,47,Female,Heart Failure,10,6,8,Home,2,1,Medicaid,0
+100011,55,Female,Diabetes,10,4,5,SNF,5,0,Private,0
+100012,19,Female,Pneumonia,5,5,4,SNF,0,1,Private,0
+100013,81,Male,COPD,13,7,8,Home,5,0,Private,0
+100014,77,Female,COPD,10,10,2,Home,6,0,Medicaid,0
+100015,38,Male,Stroke,16,4,5,Home,2,1,Private,0
+100016,50,Male,Diabetes,15,6,4,Home,2,0,Private,0
+100017,75,Male,COPD,7,4,6,Home,3,1,Uninsured,0
+100018,39,Female,Sepsis,5,3,3,Home,1,2,Private,0
+100019,66,Female,Kidney Disease,7,5,5,Home,2,3,Medicare,0
+100020,76,Female,COPD,10,10,5,Home,3,3,Medicare,0
+100021,59,Male,Diabetes,11,5,5,Rehab,1,0,Medicaid,0
+100022,77,Female,Heart Failure,3,6,7,Home,1,2,Private,1
+100023,32,Male,Pneumonia,11,9,9,Against Medical Advice,3,3,Medicaid,0
+100024,79,Female,Kidney Disease,13,9,6,Against Medical Advice,3,2,Private,0
+100025,79,Male,Pneumonia,10,6,4,Against Medical Advice,3,1,Medicare,0
+100026,64,Male,Diabetes,9,4,5,Rehab,1,1,Medicare,0
+100027,79,Male,Kidney Disease,14,10,5,Home,2,0,Medicare,0
+100028,68,Male,Heart Failure,10,3,5,Home,1,2,Medicaid,0
+100029,72,Female,Diabetes,12,9,8,Home,2,0,Private,0
+100030,81,Female,Pneumonia,12,8,6,Home,1,1,Medicare,0
+100031,20,Male,Orthopedic,13,7,6,Rehab,2,1,Private,0
+100032,68,Female,Diabetes,7,10,7,Expired,4,2,Medicare,1
+100033,24,Male,Stroke,9,4,3,Home,2,0,Medicare,0
+100034,38,Female,Diabetes,12,7,8,Home,5,3,Private,0
+100035,56,Female,Heart Failure,5,8,4,Home,5,1,Medicare,1
+100036,35,Female,Sepsis,9,8,6,Home,2,0,Private,0
+100037,21,Male,Orthopedic,12,6,3,Home,1,0,Private,0
+100038,77,Female,Sepsis,10,6,5,Home,3,1,Private,0
+100039,31,Female,Stroke,7,2,7,Rehab,1,4,Medicare,0
+100040,26,Male,Orthopedic,19,8,7,Home,2,1,Medicaid,0
+100041,70,Male,Pneumonia,3,5,1,Against Medical Advice,4,0,Private,0
+100042,19,Female,Pneumonia,10,8,1,Home,2,1,Private,0
+100043,77,Female,Sepsis,11,6,3,Rehab,1,3,Private,0
+100044,88,Female,Diabetes,16,6,5,Home,4,1,Medicare,0
+100045,61,Female,Stroke,18,4,4,Rehab,8,1,Medicare,0
+100046,25,Female,Orthopedic,10,6,5,Home,2,1,Medicaid,0
+100047,64,Male,COPD,9,6,4,Home,3,0,Private,0
+100048,52,Male,Pneumonia,7,5,9,Home,3,1,Medicare,0
+100049,53,Male,Stroke,11,4,7,Against Medical Advice,3,1,Medicare,0
+100050,67,Female,COPD,15,4,4,Home,3,1,Private,0
+100051,21,Male,Stroke,9,6,1,Home,1,0,Medicare,0
+100052,19,Female,Diabetes,8,11,3,Home,1,2,Medicare,0
+100053,23,Female,Kidney Disease,9,3,4,Home,3,0,Medicare,0
+100054,71,Female,Heart Failure,9,6,7,Rehab,4,1,Medicare,0
+100055,21,Male,Sepsis,7,4,4,Home,2,1,Medicaid,0
+100056,71,Female,Diabetes,12,5,5,Home,3,1,Medicare,0
+100057,80,Male,Sepsis,15,7,10,Expired,3,1,Medicare,0
+100058,35,Female,Pneumonia,12,4,8,SNF,0,4,Medicare,0
+100059,61,Male,Kidney Disease,8,5,4,Rehab,4,0,Medicare,0
+100060,51,Male,Orthopedic,11,5,3,Home,3,0,Private,0
+100061,79,Female,Pneumonia,13,6,3,Home,3,1,Medicare,0
+100062,31,Male,Heart Failure,15,9,3,Home,1,0,Medicaid,0
+100063,65,Male,Heart Failure,14,6,5,SNF,4,1,Medicare,0
+100064,32,Female,Sepsis,14,7,7,Home,5,0,Medicare,0
+100065,89,Female,Sepsis,7,4,4,Home,1,0,Medicare,0
+100066,79,Female,Diabetes,15,5,4,Home,1,1,Medicare,0
+100067,57,Female,Pneumonia,10,6,6,Home,2,2,Private,0
+100068,70,Female,Diabetes,8,7,6,Rehab,3,0,Medicaid,0
+100069,41,Male,Sepsis,10,8,6,Home,2,1,Private,0
+100070,43,Male,Diabetes,11,6,8,Home,1,1,Medicare,0
+100071,77,Male,Orthopedic,10,3,4,Against Medical Advice,6,0,Medicare,0
+100072,58,Female,Heart Failure,14,7,3,Home,1,2,Medicare,0
+100073,46,Female,Kidney Disease,18,5,2,Home,1,2,Private,0
+100074,32,Male,Diabetes,10,3,7,Against Medical Advice,2,3,Medicare,0
+100075,62,Male,Diabetes,16,5,5,Against Medical Advice,3,0,Medicaid,0
+100076,82,Female,Kidney Disease,15,3,5,Home,4,3,Medicare,0
+100077,88,Male,Kidney Disease,11,4,7,Home,1,1,Medicare,0
+100078,26,Female,Orthopedic,17,5,2,Home,2,1,Private,0
+100079,18,Female,Heart Failure,11,8,5,SNF,0,3,Medicaid,0
+100080,25,Female,Heart Failure,13,6,4,SNF,1,0,Private,0
+100081,80,Male,Kidney Disease,7,6,5,Home,5,1,Private,0
+100082,28,Female,Sepsis,10,8,5,Home,6,1,Medicaid,0
+100083,25,Female,COPD,9,10,5,Home,0,2,Medicare,0
+100084,52,Female,Heart Failure,19,8,3,Home,4,2,Private,0
+100085,52,Female,Heart Failure,14,7,3,Home,1,3,Medicare,0
+100086,50,Female,Orthopedic,7,7,8,SNF,1,1,Medicaid,0
+100087,22,Female,Pneumonia,12,10,8,Home,1,0,Private,0
+100088,58,Male,COPD,11,3,3,Home,5,1,Private,0
+100089,45,Female,Pneumonia,10,4,6,Home,3,3,Private,0
+100090,24,Female,COPD,5,10,4,Home,0,2,Private,0
+100091,89,Male,Heart Failure,18,4,5,Home,1,0,Medicare,0
+100092,29,Female,Diabetes,18,9,2,Home,0,2,Medicare,0
+100093,51,Female,Heart Failure,9,6,4,Home,3,3,Medicare,0
+100094,50,Female,Stroke,11,5,6,Home,5,1,Private,0
+100095,65,Male,Pneumonia,13,10,3,Home,3,1,Uninsured,0
+100096,40,Male,Diabetes,5,3,5,SNF,3,2,Medicare,0
+100097,79,Female,Orthopedic,9,6,6,Home,1,3,Medicare,0
+100098,54,Female,Kidney Disease,9,11,3,Home,4,2,Medicaid,1
+100099,61,Male,Diabetes,17,6,6,SNF,6,2,Private,1
+100100,52,Female,COPD,16,5,5,Home,3,1,Medicaid,0
+100101,82,Female,COPD,11,8,4,Against Medical Advice,5,0,Medicare,0
+100102,64,Female,Kidney Disease,12,4,5,Home,3,0,Uninsured,0
+100103,20,Female,Orthopedic,12,7,6,SNF,3,1,Private,0
+100104,18,Male,Kidney Disease,16,4,6,Against Medical Advice,1,2,Medicare,0
+100105,22,Male,Diabetes,10,4,7,Rehab,1,1,Private,0
+100106,31,Male,Kidney Disease,12,5,1,Home,1,0,Medicaid,0
+100107,44,Female,Diabetes,13,2,4,Home,5,3,Medicare,0
+100108,26,Male,Heart Failure,14,3,5,Home,2,3,Medicaid,0
+100109,32,Male,Diabetes,11,5,3,Home,3,3,Private,0
+100110,59,Male,Orthopedic,14,6,7,SNF,1,1,Private,0
+100111,68,Female,Pneumonia,11,9,4,Home,2,1,Medicare,0
+100112,80,Female,Kidney Disease,7,8,6,Home,4,0,Uninsured,0
+100113,69,Male,Pneumonia,9,8,2,Home,3,1,Medicare,0
+100114,21,Male,Diabetes,11,3,3,Home,1,0,Private,0
+100115,40,Female,Heart Failure,9,7,4,Rehab,1,1,Private,0
+100116,32,Male,Diabetes,13,9,4,SNF,1,3,Medicare,0
+100117,60,Male,Stroke,6,7,4,Home,2,2,Medicare,0
+100118,46,Male,COPD,9,5,4,Home,1,2,Private,0
+100119,53,Male,Kidney Disease,9,5,5,Home,3,0,Medicaid,0
+100120,30,Male,Stroke,16,5,8,Home,2,0,Private,0
+100121,49,Female,Orthopedic,16,2,5,Against Medical Advice,0,1,Medicaid,0
+100122,88,Male,Pneumonia,19,7,7,Rehab,2,0,Private,0
+100123,76,Female,Diabetes,13,9,6,Home,2,1,Medicaid,0
+100124,45,Male,Pneumonia,10,8,2,Home,4,1,Medicare,0
+100125,83,Female,Orthopedic,13,8,3,Home,2,1,Medicare,0
+100126,59,Female,Orthopedic,13,7,7,Home,2,1,Private,0
+100127,62,Male,Diabetes,12,7,4,Home,1,2,Medicaid,0
+100128,79,Female,Stroke,10,5,7,Home,1,3,Medicare,0
+100129,74,Male,Diabetes,11,4,8,Home,2,1,Private,0
+100130,23,Female,Sepsis,11,7,6,Home,4,0,Private,0
+100131,45,Male,Heart Failure,10,4,8,Home,1,3,Medicare,0
+100132,45,Male,Stroke,10,11,3,Against Medical Advice,1,1,Uninsured,0
+100133,61,Male,Heart Failure,15,6,9,SNF,2,0,Private,0
+100134,47,Female,Stroke,12,7,8,Home,1,0,Medicare,0
+100135,79,Female,Stroke,15,7,5,Home,2,1,Medicare,0
+100136,79,Female,Kidney Disease,13,5,6,Home,1,2,Private,0
+100137,18,Male,Heart Failure,9,7,2,Home,1,0,Private,0
+100138,44,Female,COPD,12,6,4,Home,1,3,Medicare,1
+100139,79,Male,Pneumonia,9,4,4,Rehab,4,1,Medicare,0
+100140,20,Female,COPD,10,3,3,Home,5,3,Medicare,0
+100141,87,Male,Heart Failure,9,4,6,Home,8,1,Medicaid,0
+100142,89,Male,Orthopedic,5,3,6,Home,6,0,Medicare,0
+100143,44,Male,Diabetes,11,9,3,Against Medical Advice,0,2,Medicare,0
+100144,26,Male,COPD,15,8,7,Against Medical Advice,3,0,Private,0
+100145,79,Female,Diabetes,10,5,2,Home,5,1,Private,0
+100146,54,Male,Diabetes,10,4,5,Home,2,0,Medicaid,0
+100147,68,Female,Sepsis,10,4,2,Home,2,0,Medicare,1
+100148,61,Male,Diabetes,12,7,2,Home,5,2,Medicaid,0
+100149,41,Female,Orthopedic,11,6,4,Home,1,1,Medicare,0
+100150,76,Male,Diabetes,9,2,4,Home,1,1,Uninsured,0
+100151,49,Male,Orthopedic,14,9,2,Home,1,3,Private,0
+100152,69,Female,Orthopedic,22,10,6,Home,3,1,Medicare,0
+100153,79,Male,Pneumonia,14,5,7,Home,1,1,Medicare,1
+100154,75,Male,Orthopedic,9,8,1,Rehab,4,0,Medicaid,0
+100155,69,Female,Heart Failure,9,4,3,Home,3,2,Private,0
+100156,29,Female,Stroke,11,8,6,Home,5,3,Medicaid,0
+100157,56,Male,COPD,10,6,4,Home,4,1,Private,1
+100158,19,Male,Orthopedic,9,7,6,Home,3,4,Private,0
+100159,20,Female,Orthopedic,11,9,3,Home,1,0,Medicaid,0
+100160,73,Male,Stroke,9,3,7,Home,3,0,Private,1
+100161,76,Male,Stroke,8,5,5,Home,5,1,Private,0
+100162,19,Male,COPD,11,10,3,Home,2,1,Private,0
+100163,19,Female,Heart Failure,11,5,5,Home,1,3,Uninsured,0
+100164,71,Female,Diabetes,5,5,7,Home,3,0,Medicare,0
+100165,18,Male,Pneumonia,8,4,6,Against Medical Advice,5,2,Medicare,0
+100166,36,Male,Kidney Disease,7,5,6,Home,3,0,Private,0
+100167,19,Male,COPD,14,5,7,Home,1,0,Private,0
+100168,70,Female,Orthopedic,12,7,5,Home,5,3,Private,0
+100169,61,Male,Sepsis,13,8,9,Rehab,1,2,Medicare,0
+100170,49,Male,Stroke,9,4,1,Home,2,4,Private,0
+100171,87,Female,Heart Failure,5,7,3,SNF,3,2,Medicare,0
+100172,49,Male,Orthopedic,10,9,2,Rehab,2,1,Medicaid,0
+100173,85,Female,Orthopedic,19,8,2,Home,6,2,Medicare,0
+100174,72,Male,Diabetes,8,4,7,Home,2,2,Medicare,0
+100175,73,Male,Sepsis,13,5,9,Home,2,2,Medicare,0
+100176,34,Male,Stroke,9,7,4,Rehab,1,1,Private,1
+100177,55,Female,Pneumonia,11,9,4,Home,2,1,Medicare,0
+100178,41,Female,Diabetes,10,4,9,Home,2,2,Medicare,0
+100179,86,Female,Diabetes,7,5,5,Home,4,1,Medicare,0
+100180,87,Male,Heart Failure,8,4,4,Home,4,4,Medicare,0
+100181,28,Female,COPD,8,9,10,Home,2,2,Private,0
+100182,33,Male,Heart Failure,12,2,3,Home,1,2,Medicare,0
+100183,76,Male,Heart Failure,8,4,6,Home,2,1,Medicare,0
+100184,87,Female,Heart Failure,19,8,6,Home,5,1,Private,0
+100185,20,Male,Orthopedic,7,6,5,Home,2,1,Private,0
+100186,37,Male,Diabetes,13,10,4,Against Medical Advice,1,1,Private,0
+100187,76,Male,Orthopedic,12,6,7,Home,2,3,Private,0
+100188,53,Male,Diabetes,7,5,4,Rehab,6,0,Private,0
+100189,36,Male,COPD,14,6,3,Home,1,2,Medicare,0
+100190,84,Female,Diabetes,10,8,2,Home,3,0,Uninsured,0
+100191,36,Male,Diabetes,8,4,3,SNF,4,0,Private,0
+100192,37,Female,Heart Failure,8,7,2,Home,2,0,Medicaid,0
+100193,88,Female,Sepsis,6,8,4,Expired,3,0,Private,0
+100194,69,Male,Pneumonia,13,5,9,Rehab,2,3,Private,0
+100195,50,Male,Sepsis,9,5,2,Home,2,3,Medicare,0
+100196,57,Male,Kidney Disease,10,5,5,Home,2,2,Medicare,1
+100197,56,Female,Pneumonia,18,4,9,Home,3,3,Uninsured,0
+100198,18,Male,Heart Failure,10,5,4,Home,2,1,Medicaid,0
+100199,28,Female,Stroke,8,3,4,Home,0,1,Medicare,0
+100200,74,Male,Diabetes,10,8,8,Home,4,2,Private,0
+100201,67,Female,Heart Failure,8,7,5,Home,4,1,Medicaid,0
+100202,40,Male,Orthopedic,16,8,3,Home,1,0,Medicare,0
+100203,48,Male,Heart Failure,11,6,2,Rehab,3,1,Private,0
+100204,59,Female,Kidney Disease,3,5,8,SNF,5,1,Private,0
+100205,24,Female,Orthopedic,12,6,6,Home,4,0,Medicare,0
+100206,33,Male,Pneumonia,12,5,3,Rehab,2,2,Uninsured,1
+100207,77,Female,Heart Failure,14,8,7,Home,2,3,Medicare,0
+100208,19,Female,Heart Failure,10,6,4,Home,0,2,Medicaid,0
+100209,18,Female,COPD,11,7,4,Home,3,5,Medicare,1
+100210,65,Female,Heart Failure,8,6,2,Home,3,3,Private,0
+100211,29,Male,Kidney Disease,8,3,6,Home,0,2,Medicare,0
+100212,86,Male,Heart Failure,15,5,4,Rehab,6,5,Medicare,0
+100213,54,Male,Diabetes,5,5,5,Against Medical Advice,5,1,Private,0
+100214,49,Female,Orthopedic,17,7,5,Home,1,1,Medicare,1
+100215,26,Female,Stroke,10,12,8,SNF,4,0,Private,0
+100216,36,Male,Sepsis,15,7,5,Home,3,1,Medicaid,0
+100217,65,Male,COPD,12,9,4,Home,5,2,Uninsured,0
+100218,20,Female,Sepsis,15,6,3,SNF,3,0,Medicaid,0
+100219,37,Female,Diabetes,9,4,3,Home,1,3,Medicare,1
+100220,41,Female,Diabetes,3,6,3,Home,3,2,Medicare,0
+100221,71,Male,Heart Failure,14,2,5,Home,3,0,Private,0
+100222,50,Male,Orthopedic,10,9,5,Home,3,1,Private,0
+100223,41,Male,Diabetes,8,7,5,Home,2,0,Medicare,0
+100224,89,Female,Pneumonia,9,5,5,Home,2,3,Private,0
+100225,53,Male,COPD,20,8,6,Home,6,1,Medicaid,0
+100226,55,Female,Diabetes,15,2,4,Home,5,2,Uninsured,0
+100227,42,Male,Stroke,9,8,4,Home,1,0,Private,0
+100228,35,Female,Kidney Disease,8,4,2,Home,3,2,Uninsured,0
+100229,83,Female,Stroke,10,10,7,Rehab,4,3,Private,0
+100230,71,Female,Heart Failure,13,5,7,Home,5,2,Private,0
+100231,52,Male,Diabetes,11,3,6,Home,2,0,Medicare,0
+100232,78,Male,Diabetes,12,5,5,Home,2,0,Private,0
+100233,58,Male,Heart Failure,13,7,4,Home,3,1,Private,0
+100234,50,Female,Pneumonia,6,3,3,Home,2,2,Uninsured,1
+100235,85,Female,Stroke,11,2,4,Home,2,0,Medicaid,0
+100236,50,Female,Heart Failure,13,8,5,Expired,1,1,Medicare,0
+100237,31,Female,Diabetes,13,8,5,Home,2,3,Medicaid,0
+100238,38,Female,Pneumonia,15,7,5,Home,2,0,Private,0
+100239,65,Male,Heart Failure,14,9,9,Home,2,1,Medicare,0
+100240,37,Female,Pneumonia,9,8,4,Home,1,2,Medicare,1
+100241,25,Male,Orthopedic,13,6,5,Home,3,1,Medicaid,0
+100242,24,Male,Stroke,11,7,4,Home,2,2,Medicare,0
+100243,84,Female,Orthopedic,13,7,6,Rehab,2,1,Medicare,0
+100244,34,Male,Diabetes,20,8,7,Home,1,0,Medicare,0
+100245,50,Male,Heart Failure,8,7,8,Rehab,2,0,Private,0
+100246,65,Female,Diabetes,14,4,8,Home,3,2,Private,0
+100247,76,Male,Diabetes,20,4,4,Home,5,0,Medicare,0
+100248,39,Female,Stroke,11,2,4,Home,1,0,Private,0
+100249,47,Male,Heart Failure,15,6,4,Home,0,0,Private,0
+100250,55,Male,Diabetes,14,4,4,Against Medical Advice,2,1,Medicare,1
+100251,68,Male,Pneumonia,10,10,8,Home,3,0,Medicare,0
+100252,71,Male,COPD,15,9,5,Home,1,3,Private,0
+100253,25,Female,Kidney Disease,9,5,6,Against Medical Advice,3,1,Medicaid,0
+100254,44,Male,Diabetes,15,3,3,Rehab,1,0,Private,0
+100255,44,Female,COPD,14,4,6,SNF,1,0,Medicaid,0
+100256,38,Male,Diabetes,12,3,7,Against Medical Advice,7,2,Medicare,0
+100257,47,Female,Diabetes,9,5,11,Home,1,2,Uninsured,0
+100258,45,Female,Stroke,9,5,3,Rehab,1,3,Medicare,1
+100259,81,Female,Orthopedic,9,6,7,Home,1,0,Private,0
+100260,86,Male,Orthopedic,10,9,8,Rehab,6,0,Medicare,0
+100261,78,Male,Stroke,14,7,4,SNF,2,4,Medicare,0
+100262,65,Male,COPD,10,4,6,Home,3,3,Medicaid,1
+100263,36,Female,Kidney Disease,9,6,3,SNF,0,0,Medicare,1
+100264,21,Male,Diabetes,10,7,5,Home,2,2,Medicaid,0
+100265,52,Female,Pneumonia,12,4,4,Home,3,3,Medicare,0
+100266,81,Female,Stroke,12,9,4,Home,5,1,Medicaid,0
+100267,66,Male,Heart Failure,10,9,2,Against Medical Advice,3,1,Private,0
+100268,34,Female,Orthopedic,6,6,7,Home,2,2,Medicare,0
+100269,61,Male,Diabetes,9,5,4,Home,3,2,Private,0
+100270,47,Male,Sepsis,23,3,8,Home,0,0,Medicare,1
+100271,63,Female,Kidney Disease,11,7,7,Against Medical Advice,6,0,Medicare,0
+100272,23,Female,Orthopedic,20,6,4,Home,1,0,Private,0
+100273,54,Female,Sepsis,10,7,4,SNF,7,2,Medicaid,0
+100274,41,Male,Sepsis,13,8,3,Rehab,3,1,Medicaid,0
+100275,63,Male,Heart Failure,9,4,5,Home,4,0,Medicare,0
+100276,70,Female,Diabetes,9,10,6,Home,3,1,Private,0
+100277,77,Female,Pneumonia,11,3,7,SNF,2,2,Private,0
+100278,80,Female,Kidney Disease,9,1,6,Against Medical Advice,6,0,Medicare,0
+100279,49,Male,Diabetes,5,7,2,SNF,0,3,Medicare,0
+100280,50,Female,Kidney Disease,18,5,9,Home,3,3,Private,0
+100281,84,Male,Heart Failure,6,7,9,Rehab,4,4,Medicaid,0
+100282,35,Male,Heart Failure,12,5,4,Home,1,0,Medicare,0
+100283,42,Female,Kidney Disease,9,6,7,Home,2,0,Medicare,0
+100284,71,Male,Heart Failure,19,3,5,Rehab,2,2,Medicare,0
+100285,75,Female,Heart Failure,13,6,4,Home,3,2,Medicaid,0
+100286,84,Male,Heart Failure,12,5,8,SNF,2,0,Private,0
+100287,63,Male,Orthopedic,9,4,4,Home,2,1,Medicaid,0
+100288,41,Female,Kidney Disease,6,6,5,Rehab,4,1,Medicaid,0
+100289,49,Female,COPD,15,4,8,Home,3,3,Private,0
+100290,64,Female,COPD,12,4,5,Home,4,1,Medicaid,1
+100291,40,Female,COPD,13,5,7,Rehab,1,1,Medicaid,0
+100292,83,Female,Stroke,8,9,6,Home,2,2,Medicare,0
+100293,44,Female,Kidney Disease,19,6,12,Home,3,0,Private,0
+100294,19,Female,Pneumonia,15,5,4,Expired,5,2,Medicaid,0
+100295,34,Male,Pneumonia,6,5,5,Home,1,1,Medicare,0
+100296,50,Female,Heart Failure,10,5,3,Against Medical Advice,6,1,Uninsured,1
+100297,26,Male,Kidney Disease,10,5,4,Home,1,2,Private,0
+100298,60,Female,Stroke,10,8,1,Home,3,1,Private,0
+100299,65,Female,Pneumonia,12,9,6,SNF,3,1,Medicaid,0
+100300,56,Male,Heart Failure,8,8,6,Home,2,0,Medicaid,1
+100301,59,Female,Heart Failure,6,4,3,Home,3,0,Medicare,0
+100302,43,Female,Orthopedic,15,7,4,Home,2,1,Medicare,0
+100303,67,Male,COPD,8,7,7,Rehab,3,3,Private,0
+100304,42,Female,Stroke,8,5,4,Home,2,0,Medicaid,0
+100305,41,Female,Sepsis,11,7,5,Home,3,2,Private,0
+100306,30,Male,COPD,12,10,6,Home,0,2,Medicare,0
+100307,77,Female,Pneumonia,6,7,3,Home,5,3,Medicaid,0
+100308,24,Male,Heart Failure,11,5,5,Home,1,2,Private,0
+100309,74,Female,Sepsis,12,7,5,Home,1,1,Medicaid,0
+100310,53,Female,Stroke,13,8,7,Home,2,0,Private,0
+100311,62,Female,Sepsis,5,5,4,Home,1,1,Uninsured,0
+100312,37,Male,Diabetes,16,4,4,Home,1,2,Medicare,0
+100313,82,Female,Heart Failure,11,5,6,Home,2,0,Medicare,0
+100314,25,Female,Orthopedic,10,6,5,Home,2,4,Medicare,0
+100315,33,Male,Stroke,10,4,6,Rehab,2,2,Private,0
+100316,31,Female,COPD,8,6,7,Home,0,2,Medicare,1
+100317,32,Male,Orthopedic,10,4,6,Home,2,3,Private,1
+100318,83,Female,Sepsis,9,6,2,Home,3,1,Medicaid,0
+100319,49,Male,Sepsis,11,6,6,Home,3,3,Private,0
+100320,80,Male,Kidney Disease,10,6,5,SNF,6,0,Private,0
+100321,68,Male,Stroke,8,7,1,Expired,3,5,Medicaid,1
+100322,42,Female,Kidney Disease,7,7,6,Home,1,1,Medicaid,0
+100323,75,Male,Heart Failure,8,7,4,Home,3,2,Medicare,0
+100324,80,Female,COPD,13,6,5,Home,1,0,Medicaid,0
+100325,79,Male,Orthopedic,9,8,5,Home,6,0,Medicaid,0
+100326,39,Male,Pneumonia,8,4,7,Rehab,1,1,Medicaid,0
+100327,75,Female,COPD,11,6,6,Home,2,0,Private,0
+100328,75,Female,Diabetes,9,8,3,Home,2,1,Private,0
+100329,66,Male,Diabetes,14,3,3,Home,3,2,Private,0
+100330,69,Female,Sepsis,9,9,5,SNF,2,0,Medicare,0
+100331,59,Female,Orthopedic,15,5,7,Home,4,1,Private,1
+100332,87,Female,Pneumonia,10,3,6,Against Medical Advice,5,2,Medicare,0
+100333,32,Male,Heart Failure,11,6,6,Home,2,1,Medicare,0
+100334,71,Male,Pneumonia,13,6,7,Home,3,4,Medicare,0
+100335,77,Female,Orthopedic,12,5,5,SNF,3,3,Medicare,0
+100336,25,Male,Sepsis,13,7,4,Home,2,3,Medicare,0
+100337,70,Female,COPD,13,9,4,Home,2,0,Medicaid,1
+100338,77,Female,Stroke,6,5,6,Home,3,1,Uninsured,0
+100339,22,Female,Orthopedic,13,4,5,Home,2,1,Medicare,0
+100340,85,Female,Stroke,7,7,5,Home,3,3,Private,1
+100341,23,Female,Orthopedic,16,5,4,Against Medical Advice,5,3,Medicare,0
+100342,64,Male,Pneumonia,9,3,4,Home,3,2,Medicare,0
+100343,72,Female,Stroke,8,4,2,SNF,4,6,Medicaid,1
+100344,57,Male,Diabetes,12,2,3,Home,1,1,Private,0
+100345,69,Male,Stroke,8,10,8,Home,3,0,Medicare,0
+100346,33,Female,Kidney Disease,11,6,3,Home,2,0,Medicare,0
+100347,30,Female,Stroke,10,4,5,Against Medical Advice,1,0,Medicaid,0
+100348,47,Female,Kidney Disease,13,5,4,SNF,2,2,Medicare,0
+100349,36,Female,Pneumonia,7,4,4,SNF,1,4,Private,0
+100350,34,Male,Diabetes,10,5,8,Home,2,1,Medicaid,0
+100351,80,Male,Orthopedic,12,7,4,Home,5,0,Medicare,0
+100352,36,Female,Orthopedic,6,5,3,Home,3,2,Private,0
+100353,75,Male,Heart Failure,7,3,2,Against Medical Advice,2,0,Medicare,0
+100354,72,Male,Pneumonia,8,7,5,Home,4,0,Private,0
+100355,79,Male,Heart Failure,16,4,3,Home,4,1,Private,0
+100356,40,Male,Kidney Disease,11,7,5,Home,4,1,Uninsured,0
+100357,26,Male,Stroke,5,3,8,Home,3,1,Medicaid,0
+100358,29,Male,Pneumonia,12,9,5,Home,1,1,Private,0
+100359,18,Male,Diabetes,13,4,6,Rehab,2,3,Medicare,0
+100360,75,Male,Stroke,11,7,9,Home,3,1,Private,0
+100361,18,Female,Kidney Disease,11,5,5,Rehab,2,1,Medicaid,0
+100362,51,Male,Diabetes,14,6,4,Rehab,4,2,Medicaid,0
+100363,65,Male,Sepsis,8,7,8,Home,3,1,Private,1
+100364,18,Female,Diabetes,15,2,5,Home,0,1,Medicare,0
+100365,33,Male,COPD,5,6,6,Home,1,1,Private,0
+100366,78,Female,Diabetes,8,8,9,Against Medical Advice,2,0,Private,0
+100367,81,Female,Kidney Disease,15,7,5,Home,2,2,Medicaid,0
+100368,80,Male,Orthopedic,5,7,4,Home,2,0,Medicaid,0
+100369,86,Male,Sepsis,5,8,2,Home,4,2,Medicare,0
+100370,39,Female,Stroke,14,5,2,Home,0,1,Uninsured,0
+100371,84,Female,Pneumonia,9,4,9,Home,3,2,Medicare,0
+100372,43,Male,Diabetes,9,9,6,Home,1,0,Medicaid,0
+100373,33,Female,Heart Failure,5,5,4,SNF,2,2,Private,0
+100374,68,Male,Pneumonia,11,6,6,Rehab,2,3,Private,0
+100375,74,Female,Kidney Disease,12,6,5,Home,2,2,Private,0
+100376,46,Male,Orthopedic,13,4,4,Home,1,0,Private,0
+100377,86,Female,Heart Failure,14,10,2,Rehab,3,1,Medicare,0
+100378,64,Female,Diabetes,12,9,6,Home,3,0,Medicare,0
+100379,79,Female,Stroke,11,7,4,Rehab,3,2,Medicare,1
+100380,86,Female,Pneumonia,13,4,5,Home,3,3,Private,0
+100381,33,Male,Diabetes,13,6,10,Home,1,1,Private,0
+100382,65,Male,Kidney Disease,8,6,8,Home,2,1,Private,0
+100383,56,Male,Sepsis,14,6,6,Home,3,1,Private,1
+100384,50,Male,Pneumonia,12,4,5,Rehab,3,4,Medicaid,0
+100385,40,Female,COPD,7,8,2,Home,3,1,Medicare,0
+100386,27,Male,Stroke,13,4,8,Home,2,1,Medicare,0
+100387,86,Male,Diabetes,8,1,3,Home,2,0,Medicare,0
+100388,51,Female,Heart Failure,8,7,8,SNF,3,1,Private,0
+100389,69,Female,Stroke,10,7,5,Home,3,1,Medicare,0
+100390,27,Female,Heart Failure,11,5,7,SNF,2,2,Private,0
+100391,36,Female,Kidney Disease,10,6,6,Home,2,0,Private,0
+100392,75,Male,Pneumonia,9,10,7,Home,3,1,Medicaid,0
+100393,18,Male,Orthopedic,9,6,7,SNF,1,1,Medicare,0
+100394,86,Female,COPD,12,5,3,Home,1,0,Medicare,1
+100395,21,Female,COPD,9,4,6,Home,1,1,Medicare,1
+100396,33,Male,Heart Failure,13,7,6,Home,5,2,Private,0
+100397,41,Female,COPD,12,3,8,Home,4,2,Medicare,0
+100398,19,Male,Orthopedic,8,7,4,Home,3,2,Private,0
+100399,49,Male,Orthopedic,13,7,3,Home,2,1,Private,0
+100400,41,Female,COPD,10,7,6,Home,2,3,Medicare,0
+100401,29,Female,Diabetes,8,6,8,Home,2,3,Private,1
+100402,67,Female,Kidney Disease,15,4,5,Home,3,1,Private,0
+100403,52,Male,Orthopedic,11,5,6,Home,1,0,Private,0
+100404,50,Female,Sepsis,13,5,5,Against Medical Advice,2,1,Medicare,0
+100405,50,Male,Diabetes,15,6,7,Rehab,2,0,Medicare,0
+100406,78,Male,Diabetes,12,5,3,Home,1,1,Medicare,0
+100407,68,Female,Kidney Disease,9,5,6,Home,5,0,Medicare,0
+100408,60,Female,Heart Failure,7,6,4,Against Medical Advice,3,2,Private,0
+100409,29,Female,Sepsis,10,6,7,Home,0,1,Private,0
+100410,84,Female,COPD,12,6,5,Home,3,2,Private,0
+100411,82,Female,Stroke,12,8,5,SNF,1,2,Medicare,0
+100412,50,Female,Heart Failure,12,4,8,Home,4,0,Medicare,0
+100413,57,Male,Sepsis,12,3,2,Home,3,1,Private,0
+100414,60,Male,Diabetes,12,5,3,Against Medical Advice,2,2,Medicare,0
+100415,61,Male,Sepsis,10,5,6,Home,2,0,Medicare,0
+100416,46,Male,Heart Failure,10,7,3,Home,3,1,Medicaid,0
+100417,30,Female,Sepsis,17,4,6,Home,3,2,Medicare,0
+100418,29,Female,Diabetes,11,6,5,Home,3,1,Private,0
+100419,63,Male,Diabetes,12,6,1,SNF,1,1,Medicare,0
+100420,19,Male,Sepsis,13,6,4,Home,0,0,Private,0
+100421,52,Female,Kidney Disease,13,6,4,Home,4,0,Private,0
+100422,25,Male,Stroke,10,4,2,Against Medical Advice,3,0,Medicare,0
+100423,43,Female,Pneumonia,7,11,4,Home,1,3,Private,0
+100424,51,Female,Stroke,13,6,6,Home,5,1,Medicaid,0
+100425,24,Female,Diabetes,12,5,7,Home,0,2,Private,0
+100426,85,Female,Heart Failure,7,5,3,Home,2,0,Medicare,1
+100427,75,Female,Heart Failure,12,8,4,Home,4,3,Private,1
+100428,46,Male,COPD,13,4,5,Against Medical Advice,2,0,Medicaid,1
+100429,53,Female,Stroke,7,7,5,Rehab,3,1,Private,0
+100430,38,Female,Kidney Disease,14,3,5,Home,1,0,Private,0
+100431,53,Male,Stroke,11,5,6,Home,5,2,Medicaid,0
+100432,27,Female,Diabetes,10,5,1,Home,2,0,Private,0
+100433,41,Female,Diabetes,12,5,4,Home,2,1,Medicare,0
+100434,81,Female,Heart Failure,16,9,6,Home,2,5,Medicare,0
+100435,66,Female,COPD,12,6,7,Against Medical Advice,5,0,Private,0
+100436,53,Female,Diabetes,4,9,9,Home,6,1,Private,0
+100437,41,Female,Heart Failure,10,6,4,Home,2,1,Medicaid,0
+100438,40,Female,Pneumonia,15,8,5,Home,2,1,Medicaid,0
+100439,79,Female,Sepsis,15,9,4,Home,1,2,Uninsured,0
+100440,54,Female,Kidney Disease,13,4,5,Home,4,2,Private,0
+100441,29,Female,Orthopedic,11,5,5,Home,2,1,Medicare,1
+100442,72,Female,Orthopedic,5,7,6,Home,6,2,Medicare,0
+100443,30,Male,Sepsis,17,5,4,Home,6,1,Uninsured,0
+100444,40,Female,Diabetes,10,5,3,Home,3,4,Private,1
+100445,47,Female,Sepsis,8,7,6,Home,3,2,Private,0
+100446,34,Male,Stroke,11,3,7,Home,3,0,Medicare,0
+100447,79,Female,Heart Failure,6,5,2,Rehab,3,3,Private,0
+100448,30,Male,Diabetes,10,3,7,Home,3,3,Private,0
+100449,76,Male,Stroke,14,9,7,Home,3,1,Medicare,0
+100450,36,Female,COPD,9,8,6,Home,0,1,Medicaid,0
+100451,66,Male,Sepsis,7,3,4,SNF,3,1,Private,0
+100452,29,Female,Sepsis,10,6,4,Home,2,0,Medicaid,0
+100453,78,Female,Pneumonia,5,7,5,Home,3,0,Private,0
+100454,36,Female,COPD,14,8,4,Home,2,2,Private,0
+100455,26,Male,COPD,9,8,4,Home,1,3,Private,0
+100456,88,Male,Heart Failure,7,8,2,Home,3,0,Private,0
+100457,45,Female,Heart Failure,11,7,7,Home,5,2,Medicaid,1
+100458,69,Female,Stroke,12,6,6,Rehab,2,0,Medicare,0
+100459,33,Female,COPD,7,6,7,Home,0,0,Private,0
+100460,86,Male,Diabetes,11,9,5,Home,3,1,Medicaid,0
+100461,29,Female,COPD,12,8,7,Home,0,3,Medicare,0
+100462,42,Female,Orthopedic,11,5,6,Home,3,0,Medicaid,0
+100463,69,Female,Pneumonia,11,6,4,Home,3,1,Medicare,0
+100464,70,Male,Diabetes,14,9,5,Rehab,4,1,Private,0
+100465,40,Female,Orthopedic,10,6,3,Expired,4,4,Medicare,0
+100466,33,Female,Stroke,13,3,2,Home,1,0,Medicare,0
+100467,74,Female,Pneumonia,15,4,6,Home,2,0,Uninsured,1
+100468,56,Male,Stroke,11,8,4,Home,2,0,Private,0
+100469,70,Female,Diabetes,10,4,8,Home,3,1,Private,0
+100470,59,Female,Diabetes,11,9,9,Home,2,2,Private,0
+100471,75,Male,Heart Failure,11,2,8,Rehab,4,1,Private,0
+100472,56,Female,Heart Failure,15,6,7,SNF,5,1,Private,1
+100473,31,Female,Kidney Disease,15,4,1,Home,2,2,Medicaid,0
+100474,22,Male,Diabetes,9,6,4,Home,3,1,Uninsured,0
+100475,52,Male,Diabetes,14,6,3,Home,2,0,Medicare,0
+100476,35,Female,Kidney Disease,7,3,7,Home,1,1,Private,0
+100477,26,Male,Stroke,12,8,7,Home,4,1,Medicaid,0
+100478,75,Female,Pneumonia,12,3,8,Home,4,1,Medicaid,0
+100479,34,Male,Sepsis,11,5,3,Home,1,2,Medicare,0
+100480,24,Female,Heart Failure,13,6,8,Home,3,1,Medicaid,0
+100481,63,Male,Stroke,12,5,2,Home,3,1,Private,0
+100482,30,Female,Kidney Disease,9,5,4,SNF,2,0,Uninsured,0
+100483,57,Female,Orthopedic,8,6,4,Home,5,2,Uninsured,0
+100484,59,Female,Heart Failure,7,5,3,Home,3,0,Uninsured,0
+100485,26,Female,Heart Failure,14,5,3,Home,2,3,Medicare,0
+100486,67,Male,COPD,6,6,2,Home,5,1,Uninsured,0
+100487,44,Female,Pneumonia,7,8,4,Home,4,1,Medicaid,0
+100488,83,Male,Pneumonia,8,7,8,Home,3,3,Private,0
+100489,22,Male,Orthopedic,15,7,8,Home,1,1,Medicare,1
+100490,46,Male,Pneumonia,9,9,3,Home,1,0,Medicaid,0
+100491,54,Female,COPD,12,6,1,Against Medical Advice,3,1,Uninsured,0
+100492,55,Female,Stroke,7,3,4,Home,3,1,Private,0
+100493,25,Female,Diabetes,9,5,7,Home,2,1,Private,0
+100494,82,Male,Stroke,8,7,10,Home,3,0,Private,0
+100495,34,Male,Heart Failure,16,4,3,Home,2,1,Medicare,1
+100496,88,Female,Diabetes,11,4,3,SNF,3,2,Private,0
+100497,62,Male,Heart Failure,7,6,5,Home,3,1,Private,0
+100498,21,Male,Heart Failure,10,6,5,Home,2,1,Medicare,0
+100499,53,Male,Orthopedic,10,7,3,Home,7,1,Medicare,0
+100500,87,Female,Heart Failure,7,3,7,Home,3,3,Medicare,1
+100501,48,Female,Diabetes,8,7,5,Rehab,1,2,Private,0
+100502,36,Male,Diabetes,11,5,3,Home,3,2,Medicare,0
+100503,78,Male,COPD,16,4,7,Home,2,1,Medicaid,1
+100504,71,Female,Orthopedic,11,5,4,Rehab,6,4,Medicare,1
+100505,56,Female,Heart Failure,10,3,4,Rehab,3,1,Medicaid,1
+100506,36,Male,Kidney Disease,7,7,4,Home,1,4,Private,0
+100507,56,Female,Orthopedic,10,9,6,Home,3,2,Private,0
+100508,84,Male,Diabetes,6,6,3,Home,2,2,Medicaid,0
+100509,62,Male,Orthopedic,9,7,7,Home,1,3,Medicaid,0
+100510,30,Female,Heart Failure,10,6,4,Against Medical Advice,5,2,Medicare,0
+100511,75,Male,Diabetes,10,6,4,Home,4,1,Private,0
+100512,37,Female,Pneumonia,7,7,2,Home,1,1,Medicare,0
+100513,89,Male,Kidney Disease,8,5,5,Rehab,5,1,Medicare,0
+100514,78,Male,Orthopedic,10,5,8,Home,1,1,Private,0
+100515,56,Female,Pneumonia,11,6,5,Home,3,3,Medicare,0
+100516,18,Male,Kidney Disease,8,6,2,Against Medical Advice,0,1,Private,0
+100517,20,Female,Pneumonia,9,5,2,Rehab,4,2,Medicare,0
+100518,79,Male,Diabetes,13,5,3,Rehab,5,5,Private,0
+100519,80,Male,Diabetes,15,8,5,Home,3,0,Medicare,1
+100520,42,Male,Orthopedic,9,6,9,SNF,2,2,Medicare,0
+100521,73,Female,Sepsis,19,5,4,Home,4,0,Medicare,0
+100522,50,Male,COPD,13,4,5,Home,2,0,Private,0
+100523,55,Female,Heart Failure,9,10,4,Expired,5,2,Uninsured,0
+100524,23,Male,Pneumonia,5,7,5,Home,0,0,Medicaid,0
+100525,75,Female,Pneumonia,8,7,3,SNF,3,1,Private,0
+100526,61,Male,Pneumonia,8,5,5,Home,1,0,Private,0
+100527,62,Female,Orthopedic,17,8,4,Home,1,2,Uninsured,0
+100528,49,Female,Diabetes,6,7,8,SNF,6,1,Private,0
+100529,62,Female,Diabetes,12,7,4,Home,3,1,Medicare,0
+100530,78,Female,Heart Failure,20,3,6,Home,2,0,Private,0
+100531,64,Female,Orthopedic,11,7,4,Home,3,2,Medicaid,0
+100532,38,Female,Kidney Disease,11,5,1,Against Medical Advice,4,0,Medicare,0
+100533,53,Male,Heart Failure,14,8,7,Home,2,2,Medicare,0
+100534,36,Male,Kidney Disease,4,9,8,Home,5,1,Private,0
+100535,37,Female,Diabetes,8,7,6,Home,1,1,Private,0
+100536,74,Female,Heart Failure,10,4,5,Against Medical Advice,1,1,Private,0
+100537,35,Female,Diabetes,16,5,2,SNF,1,1,Uninsured,0
+100538,64,Female,Diabetes,13,6,9,SNF,2,1,Private,0
+100539,66,Male,Pneumonia,8,4,5,Home,1,1,Medicare,0
+100540,31,Male,Orthopedic,9,6,1,Home,4,1,Medicare,0
+100541,32,Female,Stroke,15,9,4,Home,1,1,Medicare,0
+100542,48,Male,Kidney Disease,13,9,4,Home,2,2,Medicare,0
+100543,18,Male,Diabetes,9,6,4,Home,4,0,Medicare,0
+100544,71,Female,Diabetes,9,6,4,Against Medical Advice,3,3,Medicaid,0
+100545,20,Male,Kidney Disease,10,9,4,SNF,4,2,Private,0
+100546,33,Female,Diabetes,6,6,6,Home,2,3,Private,0
+100547,74,Male,Heart Failure,16,5,10,Home,5,1,Private,0
+100548,29,Female,Diabetes,13,4,5,SNF,4,1,Private,0
+100549,33,Male,Stroke,12,8,2,Home,3,0,Medicaid,0
+100550,89,Male,Diabetes,16,5,2,Home,4,0,Private,0
+100551,41,Male,Heart Failure,9,5,4,Home,1,2,Medicaid,1
+100552,45,Male,Stroke,6,6,3,Home,1,1,Medicare,0
+100553,25,Male,Pneumonia,11,4,4,SNF,3,0,Private,0
+100554,53,Male,Pneumonia,5,6,2,Home,3,2,Medicare,0
+100555,25,Female,Pneumonia,13,5,6,Home,3,1,Medicaid,0
+100556,75,Male,COPD,12,7,5,Home,2,1,Medicare,0
+100557,77,Female,Stroke,6,6,11,SNF,3,0,Private,0
+100558,67,Female,Diabetes,12,6,5,Home,3,2,Uninsured,0
+100559,45,Female,Pneumonia,17,3,4,Home,2,1,Medicare,0
+100560,58,Male,Orthopedic,20,6,6,Against Medical Advice,2,1,Private,0
+100561,81,Female,Orthopedic,9,4,3,Against Medical Advice,3,2,Medicare,0
+100562,44,Male,Orthopedic,11,4,4,Expired,2,3,Medicare,0
+100563,80,Male,Pneumonia,12,6,5,SNF,2,1,Medicare,0
+100564,34,Female,Diabetes,12,5,3,Home,2,1,Private,0
+100565,50,Male,Orthopedic,11,4,2,Home,5,0,Medicare,0
+100566,46,Female,Stroke,10,5,6,Home,3,2,Medicaid,0
+100567,30,Female,Heart Failure,9,3,7,Home,0,2,Medicare,0
+100568,63,Female,Heart Failure,6,7,8,Against Medical Advice,5,0,Medicare,0
+100569,52,Female,Diabetes,11,8,3,SNF,3,1,Private,0
+100570,23,Male,Orthopedic,8,4,6,SNF,2,2,Medicare,0
+100571,86,Male,Diabetes,10,6,6,Home,3,0,Medicare,0
+100572,64,Female,Diabetes,13,5,8,Against Medical Advice,4,2,Medicare,0
+100573,42,Male,Heart Failure,10,7,6,Rehab,0,3,Medicaid,0
+100574,83,Male,Kidney Disease,12,7,5,Home,2,0,Private,0
+100575,27,Male,Stroke,5,3,8,Rehab,1,2,Medicare,1
+100576,73,Male,COPD,17,3,10,Home,2,1,Medicare,1
+100577,47,Male,Stroke,5,6,4,Home,2,4,Medicaid,0
+100578,22,Male,Orthopedic,11,3,6,Home,1,1,Medicare,0
+100579,50,Female,Pneumonia,12,8,4,Home,2,2,Private,1
+100580,82,Female,Diabetes,8,5,2,Home,2,0,Private,0
+100581,35,Female,COPD,10,6,6,Home,3,1,Private,0
+100582,66,Male,Stroke,13,8,4,Expired,1,0,Medicare,0
+100583,28,Male,Sepsis,5,6,5,Home,1,3,Private,0
+100584,43,Male,Sepsis,8,8,7,SNF,1,1,Private,0
+100585,80,Female,Stroke,14,2,4,Home,4,1,Medicaid,0
+100586,76,Female,Diabetes,10,4,5,Home,5,2,Private,0
+100587,44,Male,Orthopedic,15,5,9,Home,1,0,Private,0
+100588,66,Female,Diabetes,8,10,7,Home,3,3,Medicaid,0
+100589,50,Male,Pneumonia,12,5,3,Home,5,0,Medicare,1
+100590,18,Female,Kidney Disease,10,6,4,Home,2,2,Private,0
+100591,38,Female,Stroke,11,7,7,Home,0,1,Medicare,0
+100592,72,Female,COPD,10,7,2,Home,1,2,Private,0
+100593,23,Female,Orthopedic,14,4,3,Rehab,2,2,Private,0
+100594,86,Female,Orthopedic,15,4,5,Home,5,1,Private,1
+100595,22,Male,COPD,15,6,1,Home,0,0,Medicaid,0
+100596,20,Female,Orthopedic,10,8,3,Home,0,2,Medicare,0
+100597,70,Male,Heart Failure,11,7,5,Home,1,0,Medicare,0
+100598,40,Female,Pneumonia,9,7,8,Home,2,1,Private,1
+100599,70,Female,Pneumonia,9,5,4,Against Medical Advice,2,0,Private,0
+100600,54,Female,Orthopedic,9,8,4,SNF,4,1,Private,0
+100601,34,Male,Kidney Disease,10,5,4,Home,1,0,Medicare,0
+100602,18,Female,Pneumonia,9,9,7,Home,3,1,Private,0
+100603,68,Female,Diabetes,10,6,6,Home,3,0,Uninsured,1
+100604,62,Female,Sepsis,13,6,5,SNF,2,1,Medicaid,1
+100605,21,Male,Heart Failure,7,5,3,Home,2,1,Medicaid,1
+100606,79,Male,Orthopedic,8,6,6,Home,3,0,Private,0
+100607,82,Male,Stroke,8,3,7,SNF,2,2,Private,0
+100608,49,Male,Diabetes,11,4,3,SNF,3,1,Uninsured,0
+100609,51,Female,Orthopedic,7,8,5,SNF,2,1,Medicare,0
+100610,89,Male,Diabetes,10,6,3,Rehab,2,2,Medicaid,0
+100611,56,Female,Orthopedic,16,7,4,Against Medical Advice,2,2,Private,0
+100612,43,Male,Kidney Disease,10,8,7,Home,0,0,Private,0
+100613,51,Male,Sepsis,12,3,4,Home,3,3,Private,1
+100614,71,Female,Pneumonia,8,8,2,SNF,3,1,Uninsured,0
+100615,20,Female,Orthopedic,7,6,4,Home,1,0,Medicaid,1
+100616,67,Female,Diabetes,10,6,8,Expired,3,1,Private,0
+100617,29,Female,Pneumonia,10,8,7,Home,0,0,Medicaid,0
+100618,82,Female,Heart Failure,12,7,2,Home,4,0,Medicaid,0
+100619,71,Male,Diabetes,14,6,4,Home,3,0,Medicare,0
+100620,22,Female,Diabetes,11,1,8,Home,1,0,Private,0
+100621,74,Female,Kidney Disease,13,8,5,Home,4,1,Uninsured,0
+100622,34,Female,Orthopedic,16,6,4,SNF,1,0,Medicare,0
+100623,64,Male,Heart Failure,11,6,1,Home,3,2,Medicare,0
+100624,40,Female,Kidney Disease,10,7,7,SNF,2,2,Private,0
+100625,31,Male,Pneumonia,14,9,5,Home,0,1,Private,0
+100626,83,Male,Orthopedic,8,5,7,Home,7,1,Uninsured,0
+100627,68,Male,Stroke,17,7,7,Home,3,2,Medicare,0
+100628,55,Male,Diabetes,10,5,3,Home,1,0,Medicare,0
+100629,81,Female,Kidney Disease,15,2,6,SNF,4,2,Medicaid,0
+100630,55,Female,COPD,8,4,5,Rehab,2,1,Medicare,0
+100631,67,Female,Diabetes,10,5,7,Rehab,2,0,Medicare,0
+100632,47,Male,Stroke,10,6,5,Against Medical Advice,2,1,Medicare,0
+100633,68,Male,Diabetes,7,5,5,Home,3,0,Medicare,0
+100634,80,Male,COPD,7,6,3,Against Medical Advice,2,0,Medicare,0
+100635,69,Female,Diabetes,9,3,6,SNF,4,1,Uninsured,0
+100636,55,Male,Stroke,10,3,6,Rehab,1,1,Medicare,0
+100637,47,Female,COPD,4,6,4,Home,4,1,Medicaid,0
+100638,68,Female,Pneumonia,10,6,5,Against Medical Advice,1,1,Private,0
+100639,22,Male,Kidney Disease,8,6,6,Home,4,1,Private,0
+100640,46,Female,Stroke,16,7,7,SNF,0,0,Private,0
+100641,21,Female,Heart Failure,8,5,6,Home,0,1,Private,1
+100642,27,Female,Pneumonia,8,10,8,Home,1,0,Private,0
+100643,73,Female,Heart Failure,14,8,6,Home,3,1,Private,1
+100644,34,Male,COPD,14,3,3,Home,2,0,Private,0
+100645,34,Male,Diabetes,7,4,8,Home,3,0,Private,0
+100646,86,Female,Kidney Disease,10,5,2,SNF,4,0,Medicaid,0
+100647,51,Female,Kidney Disease,9,7,6,Home,4,1,Medicare,0
+100648,23,Male,Sepsis,14,8,7,Home,0,0,Private,0
+100649,70,Female,COPD,9,5,5,Home,2,0,Medicaid,0
+100650,83,Female,Stroke,12,6,5,Home,2,2,Private,0
+100651,60,Female,Diabetes,10,6,5,Home,2,1,Medicare,0
+100652,40,Male,Orthopedic,11,4,1,Home,1,3,Medicare,0
+100653,72,Female,Sepsis,8,4,7,Home,2,1,Private,0
+100654,33,Female,Heart Failure,6,8,4,Home,3,1,Medicare,0
+100655,25,Male,Kidney Disease,15,4,4,Home,2,3,Private,0
+100656,21,Male,COPD,13,9,6,Home,5,0,Uninsured,0
+100657,21,Female,Kidney Disease,12,9,6,Home,1,3,Private,0
+100658,73,Male,Heart Failure,12,6,4,Against Medical Advice,3,2,Medicaid,0
+100659,42,Female,Pneumonia,9,6,3,Home,1,0,Private,0
+100660,84,Female,Orthopedic,8,4,4,Home,1,0,Private,0
+100661,84,Male,Pneumonia,8,4,4,Home,3,1,Private,0
+100662,44,Female,Stroke,13,7,5,Home,1,0,Private,0
+100663,49,Male,COPD,5,6,2,Home,1,0,Uninsured,0
+100664,67,Female,Sepsis,12,5,7,Home,3,1,Private,0
+100665,78,Male,Kidney Disease,9,7,7,Home,3,0,Uninsured,0
+100666,68,Female,Diabetes,17,4,6,Home,3,2,Medicare,0
+100667,36,Male,COPD,11,13,6,Home,4,2,Medicare,0
+100668,38,Male,Pneumonia,6,2,4,Home,1,0,Medicaid,1
+100669,22,Female,Heart Failure,10,7,2,Expired,1,1,Medicare,1
+100670,59,Male,COPD,7,2,1,Home,4,0,Private,1
+100671,78,Female,Kidney Disease,12,7,4,Home,4,2,Medicare,0
+100672,39,Male,Orthopedic,11,2,2,Against Medical Advice,2,0,Uninsured,0
+100673,38,Female,Orthopedic,6,5,5,Rehab,2,1,Medicare,0
+100674,87,Male,Stroke,10,4,2,Home,2,3,Medicaid,0
+100675,18,Female,Stroke,13,4,5,SNF,4,3,Medicare,1
+100676,22,Male,Kidney Disease,11,6,6,Home,2,1,Medicaid,0
+100677,29,Male,Pneumonia,13,6,8,Home,5,2,Medicare,1
+100678,63,Male,Orthopedic,18,6,8,Home,4,0,Medicare,0
+100679,51,Male,Kidney Disease,8,10,5,Home,4,2,Private,0
+100680,66,Female,Diabetes,12,4,4,Home,2,2,Medicare,1
+100681,62,Male,Heart Failure,9,4,4,Home,5,1,Medicare,0
+100682,44,Female,Diabetes,11,7,6,Home,0,1,Private,1
+100683,43,Male,Diabetes,7,7,8,Home,1,0,Medicare,0
+100684,64,Male,Orthopedic,12,4,3,Home,3,2,Medicaid,0
+100685,73,Female,Diabetes,10,8,6,Home,1,0,Medicare,0
+100686,80,Female,COPD,14,5,8,Home,3,1,Medicare,1
+100687,65,Male,Orthopedic,10,2,5,Home,2,0,Private,0
+100688,78,Male,Heart Failure,12,8,3,Expired,3,1,Medicare,0
+100689,43,Male,Diabetes,6,8,6,Home,6,3,Private,0
+100690,53,Female,Heart Failure,10,3,6,Home,4,1,Private,0
+100691,18,Female,Kidney Disease,10,6,4,Rehab,3,0,Medicare,0
+100692,25,Male,Orthopedic,6,7,9,Home,2,2,Uninsured,0
+100693,69,Female,COPD,6,10,3,Rehab,4,1,Medicare,0
+100694,64,Female,Orthopedic,11,4,5,Home,3,0,Medicare,0
+100695,73,Female,COPD,14,5,5,Home,2,3,Medicare,0
+100696,31,Female,Orthopedic,9,11,7,Home,4,3,Medicaid,0
+100697,45,Male,Stroke,13,5,5,Home,4,2,Private,0
+100698,19,Male,Stroke,9,5,2,Home,5,1,Medicare,0
+100699,43,Male,Heart Failure,12,5,3,Rehab,0,1,Private,1
+100700,31,Male,Orthopedic,12,8,7,SNF,1,0,Private,0
+100701,76,Female,Kidney Disease,13,9,6,Home,1,2,Medicare,0
+100702,73,Female,COPD,15,7,9,SNF,2,2,Private,1
+100703,24,Male,Stroke,13,7,5,Home,1,2,Private,0
+100704,20,Male,COPD,8,4,5,Home,1,1,Medicare,0
+100705,40,Male,Orthopedic,9,6,5,Home,0,0,Medicare,1
+100706,35,Female,Heart Failure,12,7,4,SNF,3,1,Medicaid,0
+100707,55,Male,Kidney Disease,8,3,4,Home,3,3,Medicaid,1
+100708,32,Female,Diabetes,19,9,8,Home,0,1,Medicaid,0
+100709,81,Male,Heart Failure,11,6,4,Rehab,2,0,Medicare,0
+100710,45,Male,Pneumonia,11,5,4,Home,2,1,Private,0
+100711,56,Female,Heart Failure,4,5,7,Home,8,2,Private,0
+100712,74,Female,Diabetes,12,3,4,Home,6,1,Medicaid,0
+100713,34,Male,COPD,8,6,4,Home,3,2,Medicare,0
+100714,61,Female,Sepsis,14,6,3,Home,1,0,Medicaid,0
+100715,42,Female,COPD,11,5,6,Against Medical Advice,1,1,Medicare,0
+100716,34,Female,COPD,8,3,6,Home,2,2,Medicaid,0
+100717,30,Male,Kidney Disease,14,5,7,Home,1,2,Private,1
+100718,42,Female,Heart Failure,13,5,4,Home,1,0,Medicaid,0
+100719,85,Female,Orthopedic,12,2,7,Home,2,1,Medicare,0
+100720,27,Female,Orthopedic,8,9,3,Home,5,2,Medicaid,1
+100721,84,Male,Kidney Disease,11,5,5,Against Medical Advice,3,4,Private,0
+100722,35,Male,Sepsis,16,11,10,Home,1,1,Private,1
+100723,51,Male,Orthopedic,9,7,5,Home,4,2,Medicaid,0
+100724,25,Female,Pneumonia,9,4,5,Home,5,2,Medicare,0
+100725,57,Male,Heart Failure,10,7,2,Home,2,0,Medicaid,0
+100726,59,Female,Pneumonia,10,5,1,SNF,4,4,Medicaid,0
+100727,58,Female,Stroke,17,4,5,Rehab,2,3,Uninsured,1
+100728,23,Male,Heart Failure,7,3,3,Home,3,0,Private,0
+100729,69,Female,Sepsis,20,4,5,Against Medical Advice,6,1,Private,0
+100730,43,Male,Orthopedic,5,6,3,Home,2,4,Medicaid,0
+100731,81,Female,Orthopedic,11,4,4,Home,2,3,Medicare,0
+100732,76,Male,Diabetes,10,5,5,Home,1,2,Private,0
+100733,73,Female,Heart Failure,10,4,5,Home,2,3,Medicaid,0
+100734,76,Female,Stroke,15,7,5,Against Medical Advice,4,2,Uninsured,0
+100735,87,Female,Sepsis,10,6,5,Home,5,2,Medicaid,1
+100736,50,Female,Heart Failure,10,6,5,Home,2,3,Medicare,0
+100737,70,Female,Heart Failure,17,5,7,SNF,6,0,Private,0
+100738,39,Female,Orthopedic,18,5,6,Home,2,1,Medicare,0
+100739,38,Female,Kidney Disease,11,7,5,Rehab,3,3,Medicare,0
+100740,87,Female,Stroke,12,5,7,Home,2,2,Medicare,0
+100741,87,Male,Orthopedic,9,7,3,Home,4,1,Private,0
+100742,21,Female,Sepsis,10,5,7,Against Medical Advice,1,0,Medicaid,0
+100743,79,Female,Diabetes,13,6,5,Home,6,5,Medicare,1
+100744,79,Female,Diabetes,5,6,3,Rehab,5,5,Private,0
+100745,41,Male,COPD,12,5,11,Home,2,1,Medicaid,0
+100746,72,Female,Diabetes,14,6,5,Rehab,4,2,Private,0
+100747,26,Male,Stroke,16,4,6,Home,1,0,Medicaid,0
+100748,20,Female,Sepsis,9,5,7,Home,2,1,Private,0
+100749,48,Male,Orthopedic,7,7,6,Rehab,1,2,Medicare,0
+100750,57,Female,Diabetes,12,7,3,Home,6,2,Private,0
+100751,53,Female,Sepsis,17,2,2,SNF,2,0,Private,0
+100752,41,Male,Sepsis,12,4,5,SNF,2,1,Private,1
+100753,23,Female,Sepsis,5,5,5,SNF,0,2,Medicare,0
+100754,83,Male,Kidney Disease,12,7,8,Against Medical Advice,2,1,Medicaid,0
+100755,21,Female,Pneumonia,14,5,3,Home,0,1,Private,0
+100756,23,Female,Diabetes,17,4,2,Home,3,1,Medicare,1
+100757,68,Female,Heart Failure,11,15,7,Home,1,0,Medicaid,1
+100758,79,Female,COPD,17,6,4,Home,5,0,Private,0
+100759,74,Female,Diabetes,11,5,2,Home,2,1,Medicaid,0
+100760,83,Male,Kidney Disease,18,6,4,Home,3,0,Uninsured,0
+100761,25,Male,Orthopedic,14,6,5,Home,2,1,Medicare,0
+100762,43,Female,Sepsis,7,8,2,Home,2,0,Private,0
+100763,68,Female,Kidney Disease,12,8,4,Home,2,1,Medicaid,0
+100764,62,Female,Diabetes,16,8,6,Rehab,3,0,Medicaid,0
+100765,61,Female,Sepsis,8,3,2,Home,1,1,Uninsured,0
+100766,22,Male,Heart Failure,14,6,3,Home,5,0,Medicare,0
+100767,87,Female,Pneumonia,9,4,6,Rehab,5,1,Private,0
+100768,43,Male,COPD,11,8,8,Home,4,0,Private,0
+100769,85,Female,Diabetes,12,3,7,Expired,2,2,Medicare,0
+100770,36,Male,Heart Failure,12,7,2,Home,1,5,Private,0
+100771,37,Male,Heart Failure,12,5,3,Home,3,0,Medicaid,0
+100772,29,Male,COPD,12,9,3,Home,1,3,Private,0
+100773,64,Male,Orthopedic,8,6,3,SNF,4,1,Medicare,1
+100774,18,Female,COPD,12,2,9,Home,0,1,Private,0
+100775,31,Male,Diabetes,11,3,8,Rehab,1,1,Private,0
+100776,81,Male,Pneumonia,13,4,3,Home,4,2,Medicare,0
+100777,55,Male,Sepsis,10,7,3,Home,3,2,Private,0
+100778,54,Male,COPD,8,9,5,Home,4,1,Medicare,1
+100779,28,Male,Pneumonia,10,5,8,Home,2,0,Medicaid,0
+100780,20,Male,Diabetes,10,4,9,Home,1,1,Medicare,0
+100781,50,Female,Heart Failure,11,7,4,Against Medical Advice,3,1,Medicare,0
+100782,23,Female,Heart Failure,15,7,5,Home,1,3,Medicare,0
+100783,67,Female,Pneumonia,11,9,3,Home,2,0,Medicaid,0
+100784,27,Male,Heart Failure,5,7,4,Home,3,1,Medicaid,0
+100785,22,Male,Heart Failure,4,7,4,Rehab,6,1,Medicaid,0
+100786,40,Female,COPD,11,6,8,Expired,1,1,Medicare,0
+100787,27,Female,Stroke,15,5,3,SNF,2,4,Private,0
+100788,61,Male,Sepsis,5,6,7,Against Medical Advice,6,2,Private,0
+100789,19,Male,Diabetes,7,6,3,SNF,2,0,Medicare,0
+100790,30,Male,COPD,11,7,3,Against Medical Advice,0,0,Private,0
+100791,57,Male,Orthopedic,7,12,4,SNF,5,2,Private,0
+100792,19,Male,Diabetes,11,9,8,Home,1,0,Private,0
+100793,82,Female,Heart Failure,12,8,4,Home,2,2,Medicare,0
+100794,80,Female,Sepsis,11,8,3,Home,1,1,Medicare,0
+100795,34,Female,Heart Failure,7,5,7,Home,1,1,Private,0
+100796,26,Female,COPD,18,9,1,Home,3,0,Private,0
+100797,32,Female,Diabetes,13,7,3,Home,3,0,Medicare,0
+100798,41,Female,Orthopedic,10,3,4,Against Medical Advice,2,0,Medicare,0
+100799,55,Female,Diabetes,6,5,4,Home,1,0,Private,0
